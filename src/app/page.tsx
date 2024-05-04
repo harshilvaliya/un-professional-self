@@ -1,19 +1,15 @@
-import Image from "next/image";
+import React from "react";
 
-export default function Home() {
+type Props = {};
+
+const Home = (props: Props) => {
   return (
     <>
-      <div className=" ">
-        {/* <section className="bg-amber-300 w-screen h-[50dvh] flex justify-center items-center">
-          Harshil Valiya
-        </section>
-        <section className="bg-red-400 w-screen h-[50dvh] flex justify-center items-center">
-          Gallery
-        </section>
-        <section className="bg-lime-500 w-screen h-[50dvh] flex justify-center items-center">
-          Work
-        </section> */}
+      <div className="flex justify-center items-center h-screen text-7xl">
+        Home
       </div>
     </>
   );
-}
+};
+
+export default Home;
