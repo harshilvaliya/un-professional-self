@@ -20,7 +20,7 @@ const Gallery = (props: Props) => {
       <div className="flex justify-center items-center my-10 text-7xl">
         Gallery
       </div>
-      <div className="container w-100dvw h-full flex justify-center items-center">
+      {/* <div className="container w-100dvw h-full flex justify-center items-center">
         <div className="box columns-3 p-8">
           {imageSources.map((src, index) => (
             <div
@@ -60,7 +60,7 @@ const Gallery = (props: Props) => {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </>
   );
 };
